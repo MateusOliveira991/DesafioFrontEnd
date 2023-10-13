@@ -25,27 +25,24 @@ li{
     
 }
 .fases{
-    margin: 0;
+    margin: 10%;
 
 }
 
 body{
     background-color: rgb(42, 39, 39);
 }
+#minha-imagem{
 
-.fase2 {
-    cursor: pointer; /* Altera o cursor para indicar que a imagem é clicável */
-    transition: opacity 0.8s; /* Adiciona uma transição suave para a opacidade */
+    display: none;
 }
 
-.fase2:hover {
-    opacity: 0.04; /* Altera a opacidade quando o mouse passa por cima da imagem */
-    transition: 500ms ease-in-out; /*DEFRINE O TEMPO DA MUDANÇA DE COR QUANDO PASSA O MOUSE*/
-    
-}
-h1{
+
+
+button{
+    background-color:rgb(42, 39, 39);
+    margin-left: 500px;
     text-align: center;
     font-size: 50px;
-    color: white;
-    
+    color: white;  
 }
