@@ -1,0 +1,51 @@
+.titulo{
+text-align: center;
+font-size: 50px;
+color: white;
+
+
+}
+
+.cabecalho{
+    display: inline-flex;
+    background-color: rgb(129, 127, 127);
+}
+
+h3{
+    margin-right: 150px;
+    margin-left: 150px;
+    font-size: 30px;
+    font-family: "Courgette", cursive;
+    
+   
+}
+li{
+    font-size: 20px;
+    font-family: Calibri;
+    
+}
+.fases{
+    margin: 0;
+
+}
+
+body{
+    background-color: rgb(42, 39, 39);
+}
+
+.fase2 {
+    cursor: pointer; /* Altera o cursor para indicar que a imagem é clicável */
+    transition: opacity 0.8s; /* Adiciona uma transição suave para a opacidade */
+}
+
+.fase2:hover {
+    opacity: 0.04; /* Altera a opacidade quando o mouse passa por cima da imagem */
+    transition: 500ms ease-in-out; /*DEFRINE O TEMPO DA MUDANÇA DE COR QUANDO PASSA O MOUSE*/
+    
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    
+}
